@@ -132,20 +132,20 @@ footer {
 table {
     width: 80%;
     border-collapse: collapse;
-    margin: 20px auto; /* Centralizacja tabeli i dodanie marginesów */
-    overflow-x: auto; /* Dodane dla responsywności tabeli na wąskich ekranach */
+    margin: 20px auto;
+    overflow-x: auto;
 }
 
 th, td {
-    border: 1px solid #dcdcdc; /* Zmiana koloru obramowania */
-    background-color: #f2f2f2; /* Zmiana koloru tła dla lepszej czytelności */
+    border: 1px solid #dcdcdc;
+    background-color: #f2f2f2;
     text-align: left;
-    padding: 10px; /* Zwiększenie wewnętrznego odstępu */
+    padding: 10px;
 }
 
 th {
-    background-color: #4CAF50; /* Zmiana koloru tła nagłówka */
-    color: white; /* Zmiana koloru tekstu w nagłówku dla lepszej czytelności */
+    background-color: #4CAF50;
+    color: white;
 }
 
 @media (max-width: 600px) {
@@ -165,11 +165,11 @@ th {
         font-size: 1em;
     }
     table {
-        width: 100%; /* Tabela zajmuje całą szerokość ekranu na małych ekranach */
-        margin: 10px 0; /* Zmniejszenie marginesów dla lepszego dopasowania */
+        width: 100%;
+        margin: 10px 0;
     }
 
     th, td {
-        padding: 8px; /* Powrót do mniejszego wewnętrznego odstępu */
+        padding: 8px;
     }
 }
